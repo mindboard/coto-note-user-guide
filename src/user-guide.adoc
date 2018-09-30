@@ -18,9 +18,8 @@ Coto Note is a simple handwriting application for digitizer supported Android ta
 
 === Requirement
 
-* Android 4.4 Kitkat or newer.
-
-This app is designed for S Pen supported Android tablets.
+* Android 4.4 Kitkat or newer
+* Digitizer stylus such as S Pen supported Android tablet
 
 
 === Installation
@@ -45,4 +44,22 @@ There are two screens.
 
 - (1) Editor
 - (2) Settings
+
+=== (1) Editor
+
+Use stylus in order to draw strokes and use finger manipulate them.
+
+- Switch Pen Color : Tap pen icon in the left top corner
+- Undo / Redo : Tap undo or redo icon in the left bottom corner
+- Temporary Group : Lasso some strokes with finger
+- Persistent Group : Lasso some strokes with finger and tap group icon in the left bottom corner
+
+By making temporary or persistent group, you can move them with finger.  +
+And also you can delete them drag and drop into the trashcan icon in the right bottom corner.
+
+
+
+
+
+=== (2) Settings
 
