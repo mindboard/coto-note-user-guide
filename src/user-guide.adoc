@@ -1,0 +1,48 @@
+
+= Coto Note User Guide
+== Introduction
+
+image::screenshots/overview.png[Coto Note]
+
+=== Overview
+
+Coto Note is a simple handwriting application for digitizer supported Android tablets.
+
+
+=== Key Features
+
+* PDF Export
+* Google Drive Support ( via Storage Access Framework )
+* Stroking with Stylus
+* Manipulating with Finger
+
+=== Requirement
+
+* Android 4.4 Kitkat or newer.
+
+This app is designed for S Pen supported Android tablets.
+
+
+=== Installation
+
+Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.coto.note.free[Coto Note] app on Google Play Store.
+
+
+=== Getting help
+
+If you have any questions, please http://www.mindboardapps.com/contact.html[make contact].
+And also your feedback will be much appreciated.
+
+To get update information, see 
+https://twitter.com/mindboard/[Twitter].
+
+
+== Using Coto Note
+
+=== Overview
+
+There are two screens.
+
+- (1) Editor
+- (2) Settings
+

@@ -1,0 +1,13 @@
+= Coto Note User Guide
+Tomoaki Oshima <https://www.mindboardapps.com/>
+:doctype: book
+:source-highlighter: coderay
+:toc: left
+:sectnums:
+:sectanchors:
+:icons: font
+:imagesdir: ../images
+
+This document explains Coto Note Version 1.2.9.
+
+include::user-guide.adoc[]
