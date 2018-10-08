@@ -1,4 +1,12 @@
 
+
+debug :
+	gradle asciidoctor 
+	cp build/html5/index.html .
+	rm -rf build
+
+release : all
+
 html: index.html
 
 all : index.html pdf
@@ -12,3 +20,4 @@ coto-note-user-guide.pdf: src/index.adoc src/user-guide.adoc
 
 clean :
 	rm -f *.pdf index.html
+	gradle clean

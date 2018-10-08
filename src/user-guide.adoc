@@ -47,19 +47,104 @@ There are two screens.
 
 === (1) Editor
 
-Use stylus in order to draw strokes and use finger manipulate them.
+image::screenshots/editor.png[Coto Note Editor]
 
-- Switch Pen Color : Tap pen icon in the left top corner
-- Undo / Redo : Tap undo or redo icon in the left bottom corner
-- Temporary Group : Lasso some strokes with finger
-- Persistent Group : Lasso some strokes with finger and tap group icon in the left bottom corner
+Use stylus in order to draw strokes and use finger in order to manipulate them.
+
+* *Zoom* : Pinch in out with two fingers
+* *Scroll* : Swipe background with two fingers
+* *Switch Pen or Eraser* : Tap pen icon in the left top corner
+* *Undo / Redo* : Tap undo or redo icon in the left bottom corner
+* *Temporary Group* : Lasso a sketch with finger
+* *Persistent Group* : Lasso a sketch with finger and tap the group icon
 
 By making temporary or persistent group, you can move them with finger.  +
 And also you can delete them drag and drop into the trashcan icon in the right bottom corner.
 
 
+==== Actions
 
+image::screenshots/actionbar-icons.png[Coto Note Actionbar Icons]
+
+* *Share* : Export sketch as PDF
+* *Menu* : New / Open / Save / Save as / Close and Settings
+* *Fullscreen* : Enter fullscreen mode
+
+
+==== File Menu and Settings
+
+image::screenshots/menu-items.png[Coto Note Menu Items]
+
+For File Operation
+
+* *New*
+* *Open*
+* *Save*
+* *Save As*
+* *Close*
+
+For Settings
+
+* *Settings* : See Settings section in this document
+
+
+
+
+==== Change Pen Color and Stroke Width
+
+image::screenshots/pen-settings.png[make group]
+
+1. Tap the pen icon on the left top corner
+
+[NOTE]
+To hide the pen settings panel, tap the pen icon again.
+
+
+==== Group
+
+image::screenshots/lasso-a-sketch.png[make group]
+
+1. Lasso a sketch with finger -> A temporary group is created.
+2. Tap the group icon on the bottom toolbar
+
+
+==== Ungroup
+
+1. Tap a group with finger -> It's selected.
+2. Tap the ungroup icon on the bottom toolbar
+
+
+==== Delete group
+
+1. Drag a group and drop the trashcan in the right bottom corner.
 
 
 === (2) Settings
+
+image::screenshots/settings.png[Coto Note Settings]
+
+* *Storage Access Framework*
+** *Coto Note MIME Type Filtering* : 
+* *Toolbar*
+** *Location*
+* *Misc.*
+** *Graph Line Opacitiy*
+** *Back Key* Prevent app close when pushing back key
+** *Status Bar* Hide or show the status bar
+** *Screen* Keep screen On or Off
+
+
+=== Drag and Drop sketch
+
+image::screenshots/overview.png[Coto Note]
+
+This app can drag and drop sketch between some apps:
+
+* Coto Note {plus}
+* Small Sketch Box
+* Small Sketch
+
+[NOTE]
+Drag and drop data has only strokes, so that color and stroke width info are lost when drag and drop.
+
 

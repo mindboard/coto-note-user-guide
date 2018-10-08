@@ -549,6 +549,7 @@ table.CodeRay td.code>pre{padding:0}
 <li><a href="#_overview_2">2.1. Overview</a></li>
 <li><a href="#_1_editor">2.2. (1) Editor</a></li>
 <li><a href="#_2_settings">2.3. (2) Settings</a></li>
+<li><a href="#_drag_and_drop_sketch">2.4. Drag and Drop sketch</a></li>
 </ul>
 </li>
 </ul>
@@ -560,7 +561,7 @@ table.CodeRay td.code>pre{padding:0}
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This document explains Coto Note Version 1.2.9.</p>
+<p>This document explains Coto Note Version 1.3.2.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -663,22 +664,33 @@ And also your feedback will be much appreciated.</p>
 </div>
 <div class="sect2">
 <h3 id="_1_editor"><a class="anchor" href="#_1_editor"></a>2.2. (1) Editor</h3>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/editor.png" alt="Coto Note Editor">
+</div>
+</div>
 <div class="paragraph">
-<p>Use stylus in order to draw strokes and use finger manipulate them.</p>
+<p>Use stylus in order to draw strokes and use finger in order to manipulate them.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Switch Pen Color : Tap pen icon in the left top corner</p>
+<p><strong>Zoom</strong> : Pinch in out with two fingers</p>
 </li>
 <li>
-<p>Undo / Redo : Tap undo or redo icon in the left bottom corner</p>
+<p><strong>Scroll</strong> : Swipe background with two fingers</p>
 </li>
 <li>
-<p>Temporary Group : Lasso some strokes with finger</p>
+<p><strong>Switch Pen or Eraser</strong> : Tap pen icon in the left top corner</p>
 </li>
 <li>
-<p>Persistent Group : Lasso some strokes with finger and tap group icon in the left bottom corner</p>
+<p><strong>Undo / Redo</strong> : Tap undo or redo icon in the left bottom corner</p>
+</li>
+<li>
+<p><strong>Temporary Group</strong> : Lasso a sketch with finger</p>
+</li>
+<li>
+<p><strong>Persistent Group</strong> : Lasso a sketch with finger and tap the group icon</p>
 </li>
 </ul>
 </div>
@@ -686,17 +698,229 @@ And also your feedback will be much appreciated.</p>
 <p>By making temporary or persistent group, you can move them with finger. <br>
 And also you can delete them drag and drop into the trashcan icon in the right bottom corner.</p>
 </div>
+<div class="sect3">
+<h4 id="_actions"><a class="anchor" href="#_actions"></a>2.2.1. Actions</h4>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/actionbar-icons.png" alt="Coto Note Actionbar Icons">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Share</strong> : Export sketch as PDF</p>
+</li>
+<li>
+<p><strong>Menu</strong> : New / Open / Save / Save as / Close and Settings</p>
+</li>
+<li>
+<p><strong>Fullscreen</strong> : Enter fullscreen mode</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_file_menu_and_settings"><a class="anchor" href="#_file_menu_and_settings"></a>2.2.2. File Menu and Settings</h4>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/menu-items.png" alt="Coto Note Menu Items">
+</div>
+</div>
+<div class="paragraph">
+<p>For File Operation</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>New</strong></p>
+</li>
+<li>
+<p><strong>Open</strong></p>
+</li>
+<li>
+<p><strong>Save</strong></p>
+</li>
+<li>
+<p><strong>Save As</strong></p>
+</li>
+<li>
+<p><strong>Close</strong></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>For Settings</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Settings</strong> : See Settings section in this document</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_change_pen_color_and_stroke_width"><a class="anchor" href="#_change_pen_color_and_stroke_width"></a>2.2.3. Change Pen Color and Stroke Width</h4>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/pen-settings.png" alt="make group">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tap the pen icon on the left top corner</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+To hide the pen settings panel, tap the pen icon again.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_group"><a class="anchor" href="#_group"></a>2.2.4. Group</h4>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/lasso-a-sketch.png" alt="make group">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Lasso a sketch with finger &#8594; A temporary group is created.</p>
+</li>
+<li>
+<p>Tap the group icon on the bottom toolbar</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_ungroup"><a class="anchor" href="#_ungroup"></a>2.2.5. Ungroup</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Tap a group with finger &#8594; It&#8217;s selected.</p>
+</li>
+<li>
+<p>Tap the ungroup icon on the bottom toolbar</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_delete_group"><a class="anchor" href="#_delete_group"></a>2.2.6. Delete group</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Drag a group and drop the trashcan in the right bottom corner.</p>
+</li>
+</ol>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_2_settings"><a class="anchor" href="#_2_settings"></a>2.3. (2) Settings</h3>
-
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/settings.png" alt="Coto Note Settings">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Storage Access Framework</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Coto Note MIME Type Filtering</strong> :</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Toolbar</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Location</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Misc.</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Graph Line Opacitiy</strong></p>
+</li>
+<li>
+<p><strong>Back Key</strong> Prevent app close when pushing back key</p>
+</li>
+<li>
+<p><strong>Status Bar</strong> Hide or show the status bar</p>
+</li>
+<li>
+<p><strong>Screen</strong> Keep screen On or Off</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_drag_and_drop_sketch"><a class="anchor" href="#_drag_and_drop_sketch"></a>2.4. Drag and Drop sketch</h3>
+<div class="imageblock">
+<div class="content">
+<img src="images/screenshots/overview.png" alt="Coto Note">
+</div>
+</div>
+<div class="paragraph">
+<p>This app can drag and drop sketch between some apps:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Coto Note &#43;</p>
+</li>
+<li>
+<p>Small Sketch Box</p>
+</li>
+<li>
+<p>Small Sketch</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Drag and drop data has only strokes, so that color and stroke width info are lost when drag and drop.
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-09-30 02:59:29 UTC
+Last updated 2018-10-08 02:33:56 UTC
 </div>
 </div>
 </body>

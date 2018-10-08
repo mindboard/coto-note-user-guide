@@ -8,7 +8,7 @@ Tomoaki Oshima <https://www.mindboardapps.com/>
 :icons: font
 :imagesdir: images
 
-This document explains Coto Note Version 1.2.9.
+This document explains Coto Note Version 1.3.2.
 
 [NOTE]
 link:coto-note-user-guide.pdf[User Guide (PDF format)]
