@@ -55,10 +55,10 @@ Use stylus in order to draw strokes and use finger in order to manipulate them.
 * *Scroll* : Swipe background with two fingers
 * *Switch Pen or Eraser* : Tap pen icon in the left top corner
 * *Undo / Redo* : Tap undo or redo icon in the left bottom corner
-* *Temporary Group* : Lasso a sketch with finger
-* *Persistent Group* : Lasso a sketch with finger and tap the group icon
+* *Temporary Group* : Lasso a sketch with a finger
+* *Persistent Group* : Lasso a sketch with a finger and tap the group icon
 
-By making temporary or persistent group, you can move them with finger.  +
+By making temporary or persistent group, you can move them with a finger.  +
 And also you can delete them drag and drop into the trashcan icon in the right bottom corner.
 
 
@@ -104,13 +104,13 @@ To hide the pen settings panel, tap the pen icon again.
 
 image::screenshots/lasso-a-sketch.png[make group]
 
-1. Lasso a sketch with finger -> A temporary group is created.
+1. Lasso a sketch with a finger -> A temporary group is created.
 2. Tap the group icon on the bottom toolbar
 
 
 ==== Ungroup
 
-1. Tap a group with finger -> It's selected.
+1. Tap a group with a finger -> It's selected.
 2. Tap the ungroup icon on the bottom toolbar
 
 
